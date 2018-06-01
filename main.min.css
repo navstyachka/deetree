@@ -711,6 +711,12 @@ html {
   background-size: 33px 23px;
 }
 
+.socials__item.vk {
+  background-image: url(assets/vk.png?f0e3de5);
+  background-position: 50%;
+  background-size: 35px 35px;
+}
+
 @media screen and (min-width: 768px) {
   .socials__item {
     margin-left: 15px;
