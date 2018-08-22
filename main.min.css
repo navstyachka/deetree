@@ -668,8 +668,8 @@ html {
 
 .socials__item {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin-left: 5px;
   margin-right: 5px;
   background-repeat: no-repeat;
@@ -683,46 +683,79 @@ html {
 
 .socials__item.in {
   background-image: url(assets/in.png?6635271);
-  background-position: -1px 9px;
-  background-size: 44px;
+  background-position: 0 3px;
+  background-size: 31px;
 }
 
 .socials__item.fb {
   background-image: url(assets/fb.png?4a26263);
   background-position: 50%;
-  background-size: 32px 32px;
+  background-size: 23px 23px;
 }
 
 .socials__item.tw {
   background-image: url(assets/tw.png?8824628);
   background-position: 50%;
-  background-size: 35px 28px;
+  background-size: 28px 22px;
 }
 
 .socials__item.sc {
   background-image: url(assets/sc.png?5f1fab3);
   background-position: 0 50%;
-  background-size: 49px 23px;
+  background-size: 30px 14px;
 }
 
 .socials__item.yt {
   background-image: url(assets/yt.png?f0e3de5);
   background-position: 50%;
-  background-size: 33px 23px;
+  background-size: 27px 19px;
 }
 
 .socials__item.vk {
   background-image: url(assets/vk.png?f0e3de5);
   background-position: 50%;
-  background-size: 35px 35px;
+  background-size: 30px 30px;
 }
 
 @media screen and (min-width: 768px) {
   .socials__item {
+    width: 50px;
+    height: 50px;
     margin-left: 15px;
     margin-right: 15px;
   }
+
+  .socials__item.in {
+    background-position: -1px 9px;
+    background-size: 44px;
+  }
+
+  .socials__item.fb {
+    background-position: 50%;
+    background-size: 32px 32px;
+  }
+
+  .socials__item.tw {
+    background-position: 50%;
+    background-size: 35px 28px;
+  }
+
+  .socials__item.sc {
+    background-position: 0 50%;
+    background-size: 49px 23px;
+  }
+
+  .socials__item.yt {
+    background-position: 50%;
+    background-size: 33px 23px;
+  }
+
+  .socials__item.vk {
+    background-position: 50%;
+    background-size: 35px 35px;
+  }
 }
+
 
 .video {
   position: fixed;
@@ -1032,6 +1065,68 @@ html {
   .socials {
     bottom: 0;
     opacity: 0;
+  }
+}
+
+/*Text page*/
+
+.text-page {
+  min-height: 100%;
+  padding: 0 20px;
+  background-image: url('./assets/backgrounds/1.jpg');
+  background-size: cover;
+}
+.text-page .header {
+  position: static;
+  padding: 30px 0;
+}
+
+.text-block {
+  position: relative;
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255,255,255,.7)
+}
+
+.text-block a, .text-block a:visited {
+  color: #306eec;
+}
+
+.text-block__title {
+  margin-bottom: 30px;
+}
+
+.text-block p {
+  margin-bottom: 20px;
+}
+
+.quotation {
+  font-style: italic;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.video-block {
+  padding-bottom: 30px;
+}
+
+.video-block iframe {
+  width: 100%;
+}
+
+.text-page .socials {
+  position: static;
+  padding: 20px 0;
+}
+
+.link-wrapped {
+  word-wrap: break-word;
+}
+
+@media screen and (min-width: 768px) {
+  .text-block {
+    padding: 40px 30px;
   }
 }
 
