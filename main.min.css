@@ -1073,9 +1073,9 @@ html {
 .text-page {
   min-height: 100%;
   padding: 0 20px;
-  background-image: url('./assets/backgrounds/1.jpg');
-  background-size: cover;
+  background: url('./assets/backgrounds/7.jpg') no-repeat 50% fixed / cover;
 }
+
 .text-page .header {
   position: static;
   padding: 30px 0;
@@ -1086,7 +1086,7 @@ html {
   padding: 30px 20px;
   max-width: 800px;
   margin: 0 auto;
-  background: rgba(255,255,255,.7)
+  background: #fff;
 }
 
 .text-block a, .text-block a:visited {
@@ -1099,10 +1099,10 @@ html {
 
 .text-block p {
   margin-bottom: 20px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .quotation {
-  font-style: italic;
   padding-bottom: 30px;
   padding-left: 30px;
 }
